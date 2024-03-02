@@ -1,9 +1,12 @@
+import Footer from "../Shared/Footer/Footer";
+import Navbar from "../Shared/Navbar/Navbar";
 
 
 const Home = () => {
     return (
         <div>
-            Hello From Home Page
+            <Navbar></Navbar>
+            <Footer></Footer>
         </div>
     );
 };
